@@ -1,0 +1,21 @@
+
+.max-w-500 {
+  max-width: 500px;
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+}
+
+.hero-slide-1 {
+  background: linear-gradient(135deg, #1b5e20 0%, #4caf50 100%);
+  border-radius: 0 0 2rem 2rem;
+} 
+
+.card-promo {
+  transition: transform 0.2s ease;
+}
+
+.card-promo:hover {
+  transform: scale(1.02);
+}

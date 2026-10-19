@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina De Ruth</title>
+    <!--BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+  <!--BARRA DE REDES SOCIALES-->
+    <div
+      class="bg-success text-white py-2 d-none d-lg-block border-bottom border-light-subtle"
+    >
+      <div class="container d-flex justify-content-between align-items-center">
+        <small>Nuestras redes sociales</small>
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#" class="text-white text-decoration-none"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!--HEADER Y BARRA DE NAVEGACION -->
+    <header class="py-3 bg-white border-bottom">
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center gap-3"
+      >
+        <!-- RUTH PON EL LOGO -->
+        <a
+          href="#"
+          class="d-flex align-items-center mb-2 mb-md-0 text-dark text-decoration-none fw-bold fs-3 text-success"
+        >
+          <i class="bi bi-leaf me-2"></i>VEGETALES FRESCOS
+        </a>
+
+        <!-- BUSCADOR -->
+        <form class="d-flex flex-grow-1 mx-lg-5 max-w-500" role="search">
+          <div class="input-group">
+            <input
+              type="search"
+              class="form-control rounded-start-pill"
+              placeholder="Ingresa el nombre de tu producto"
+              aria-label="Buscar"
+            />
+            <button class="btn btn-success rounded-end-pill px-4" type="submit">
+              Buscar
+            </button>
+          </div>
+        </form>
+    </header>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+      <div class="container">
+
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">PRODUCTOS</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link text-white" href="#">REDES SOCIALES</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link text-white" href="#">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">BLOG</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!--PRODUCTOS-->
+      <section
+        id="heroCarousel"
+        class="carousel slide hero-section"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active hero-slide-1 py-5 text-white">
+            <div class="container py-5">
+              <div class="row align-items-center my-4">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                  <span class="fs-5 fw-light text-uppercase tracking-wider"
+                    > Descuento de 30% en algunos de nuestros productos</span
+                  >
+                  <h1 class="display-3 fw-bold mb-4">Vegetales de buena calidad</h1>
+                  <a
+                    href="#"
+                    class="btn btn-light rounded-pill px-4 py-2 fw-bold text-success"
+                    >Comprar ahora</a
+                  >
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                <img src="images/imagenUno.jpeg" class="card-img-top img-fluid" alt="vegetables">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+     <!--TARJETAS-->
+    <section class="container my-5">
+      <div class="row g-4">
+        <!--TARJETA 1-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card card-promo p-3 rounded-4 border-0 h-100" style="background-color: #fde8e8;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="fw-bold">MANDARINAS</h5>
+                <p class="small mb-1">TIENEN 25% DE DESCUENTO</p>
+              </div>
+             <img src="images/mandarinas.jpeg" class="card-img-top img-fluid" alt="mandarinas"> 
+            </div>
+          </div>
+        </div>
+
+         <!--TARJETA 2-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card card-promo p-3 rounded-4 border-0 h-100" style="background-color: #fef3c7;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="fw-bold">FRESAS</h5>
+                <p class="small mb-1">TIENEN 25% DE DESCUENTO</p>
+              </div>
+             <img src="images/fresas.jpeg" class="card-img-top img-fluid" alt="fresas">
+            </div>
+          </div> 
+        </div>
+
+         <!--TARJETA 3-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card card-promo p-3 rounded-4 border-0 h-100" style="background-color: #e8f5e9;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="fw-bold">PLATANOS</h5>
+                <p class="small mb-1">TIENEN 30% DE DESCUENTO</p>
+              </div>
+             <img src="images/platanos.jpeg" class="card-img-top img-fluid" alt="platanos">
+            </div>
+          </div> 
+        </div>
+
+         <!--TARJETA 4-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card card-promo p-3 rounded-4 border-0 h-100" style="background-color: #e0f2fe;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="fw-bold">DURAZNOS</h5>
+                <p class="small mb-1">TIENEN 30% DE DESCUENTO</p>
+              </div>
+             <img src="images/duraznos.jpeg" class="card-img-top img-fluid" alt="duraznos">
+            </div>
+          </div> 
+        </div>  
+      </div>
+    </section>
+
+      <!--PREGUNTAS FRECUENTES-->
+      <section class="container my-5">
+        <h3 class="fw-bold text-center mb-4">Preguntas Frecuentes</h3>
+        <div
+          class="accordion accordion-flush shadow-sm rounded-3 overflow-hidden"
+          id="faqAccordion"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+              >
+                ¿El producto es 100% orgánico?
+              </button>
+            </h2>
+            <div
+              id="faq1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Si lo es, Trabajamos con agricultores locales certificados.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+              >
+                ¿Cuál es el tiempo de entrega estimado?
+              </button>
+            </h2>
+            <div
+              id="faq2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Los pedidos realizados antes del mediodía se entregan el mismo
+                día para conservar la frescura de los alimentos.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5 align-items-center">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <h4 class="fw-bold text-success mb-3">
+              <i class="bi bi-leaf me-2"></i>vegetales
+            </h4>
+            <p class="text-secondary small">Tu tienda de productos frescos.</p>
+            <div class="d-flex gap-3 fs-5 ">
+              <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-secondary small">
+          &copy; 2026 pagina de Ruth Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+  </body>
+</html>
